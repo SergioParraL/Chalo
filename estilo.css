@@ -1,0 +1,80 @@
+*{
+  /*sin padding*/
+  padding:0px;
+ /*para bajar a contenido*/
+  overflow: scroll;
+}
+body{
+  background-color: black;
+}
+h1{
+  /*texto al centro*/
+  text-align:center;
+  /*color de fondo*/
+  background-color:red;
+  /*ancho*/
+  width: 100%;
+  /*linea alta*/
+  line-height: 80%;
+  /*alto*/
+  height:80%;
+  /*color de letra */
+  color:white;
+  /*bordes*/
+  border-radius:10px;
+}
+#star{
+  text-align:center;
+  font-size:25px;
+  color:#f8eb46;
+}
+/*triangulo 1*/
+.Tria1{
+width:  0;
+ height:  0; 
+ border-left:  60px  solid  transparent; 
+ border-right:  60px  solid  transparent; 
+ border-bottom:  65px  solid  green;
+
+}
+.Tria2{
+width:  0;
+ height:  0; 
+ border-left:  60px  solid  transparent; 
+ border-right:  60px  solid  transparent; 
+ border-bottom:  65px  solid  green;
+ margin-top:-2px;
+}
+.Tria3{
+width:  0;
+ height:  0; 
+ border-left:  60px  solid  transparent; 
+ border-right:  60px  solid  transparent; 
+ border-bottom:  65px  solid  green;
+ margin-top:-2px;
+}
+/*poste*/
+.poste{
+  width:80px;
+  height: 30px;
+  transform:rotate(90deg);
+  background-color: #b34a0c; 
+  margin-top:25px;
+}
+button{
+  width: 110px;
+  height: 30px;
+  background-color:red;
+  color:white;
+  border-radius: 50px;
+}
+#msg{
+  text-align:center;
+  color:white;
+  font-size:30px;
+}
+footer{
+  background-color:green;
+  color:white;
+  border-radius: 10px;
+}
